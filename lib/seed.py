@@ -20,6 +20,5 @@ def seed_database():
     Employee.create("Dani", "Benefits Coordinator", human_resources.id)
     Employee.create("Hao", "New Hires Coordinator", human_resources.id)
 
-
 seed_database()
 print("Seeded database")
